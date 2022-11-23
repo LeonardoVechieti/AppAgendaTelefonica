@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/verde_fundo"
+    tools:context=".CreateContato">
+
+    <TextView
+        android:id="@+id/button_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_contato"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="8sp"
+        android:paddingBottom="8sp"
+        android:layout_gravity="center"
+        android:background="@color/teal_200"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:layout_width="195dp"
+        android:layout_height="131dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_contact_verde" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/n_mero"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_fone"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_mail"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text_email"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/verde_item"
+        android:layout_marginTop="25dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+</LinearLayout>

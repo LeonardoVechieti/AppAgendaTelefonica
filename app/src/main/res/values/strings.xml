@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AgendaContatos</string>
+    <string name="add_contato">Add Contato</string>
+    <string name="nome">Nome</string>
+    <string name="n_mero">Número</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="salvar">Salvar</string>
+    <string name="email">Email: meuemail.com.br</string>
+    <string name="number">(55) 99999-9999</string>
+    <string name="nome_da_pessoa">Nome da Pessoa</string>
+</resources>
